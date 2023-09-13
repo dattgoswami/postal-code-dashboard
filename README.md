@@ -9,7 +9,7 @@ The Postal Code Dashboard project offers insights into job completion reports ba
 ### Directory Structure
 
 ```plaintext
-postal_code_dashboard/
+postal-code-dashboard/
 │
 ├── flask-backend/
 │   ├── app/
@@ -25,7 +25,6 @@ postal_code_dashboard/
 │   │
 │   ├── be_env/ (Python virtual environment)
 │   ├── requirements.txt
-│   ├── Procfile
 │   └── run.py
 │
 ├── react-frontend/
@@ -50,7 +49,7 @@ postal_code_dashboard/
    Navigate to the Flask backend directory and set up the Python virtual environment:
 
    ```bash
-   cd postal_code_dashboard/flask-backend
+   cd postal-code-dashboard/flask-backend
    python3 -m venv be_env
    ```
 
@@ -109,7 +108,6 @@ postal_code_dashboard/
    For novel setups or development, utilize `.env.example` as a blueprint:
 
    ```
-   ## Example .env file
    REACT_APP_API_BASE_URL= # Base URL to the backend API, e.g., http://127.0.0.1:5000
    ```
 
@@ -118,7 +116,7 @@ postal_code_dashboard/
 2. **Navigate to the React Directory**
 
    ```bash
-   cd postal_code_dashboard/react-frontend
+   cd postal-code-dashboard/react-frontend
    ```
 
 3. **Install Dependencies**
