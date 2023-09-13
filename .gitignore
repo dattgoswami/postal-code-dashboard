@@ -1,0 +1,32 @@
+# General
+*.log
+*.swp
+*.cache
+*.DS_Store
+Thumbs.db
+
+# Python artifacts
+*.py[cod]
+__pycache__/
+flask-backend/app/__pycache__/
+flask-backend/app/utils/__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+flask-backend/be_env/
+
+# Data files
+flask-backend/data/completed_jobs_report.csv
+
+# Frontend dependencies and build artifacts
+react-frontend/node_modules/
+react-frontend/build/
+react-frontend/.env
+react-frontend/.env.example
+
+# IDE artifacts
+.vscode/
+.idea/
+*.iml
