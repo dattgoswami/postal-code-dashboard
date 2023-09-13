@@ -1,0 +1,12 @@
+.headerStyle {
+    background-color: #333;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.evenRow {
+    background-color: #E0E0E0;
+    /* A tad darker for better distinction */
+}
+.oddRow {
+    background-color: white;
+}
